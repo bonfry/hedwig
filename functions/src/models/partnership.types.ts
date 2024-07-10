@@ -13,4 +13,9 @@ type Partnership = {
     partners: Partner[];
 };
 
-export { Partner, Partnership}
+type PartnershipAddRequestBody = {
+    name: string;
+    position?: number;
+};
+
+export { Partner, Partnership, PartnershipAddRequestBody}
